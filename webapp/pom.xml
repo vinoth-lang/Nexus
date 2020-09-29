@@ -40,5 +40,13 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Nexus Staging Repo</name>
+      <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
 
 </project>
